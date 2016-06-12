@@ -108,15 +108,15 @@ $(function() {
     max: 30,
     values: [ 1, 14 ],
     slide: function( event, ui ) {
-      $('.filter-days .info .begin').text( ui.values[0] + ( ui.values[0] > 1 ? ' days' : ' day' ) );
-      $('.filter-days .info .end').text( ui.values[1] + ( ui.values[1] > 1 ? ' days' : ' day' ) );
+      $('.filter-days .info .begin').text( ui.values[0] + ( ui.values[0] > 1 ? ' días' : ' día' ) );
+      $('.filter-days .info .end').text( ui.values[1] + ( ui.values[1] > 1 ? ' días' : ' día' ) );
     }
   });
 
   var begin = $('.filter-days .slider').slider('values', 0);
   var end = $('.filter-days .slider').slider('values', 1);
-  $('.filter-days .info .begin').text( begin + ( begin > 1 ? ' days' : ' day' ) );
-  $('.filter-days .info .end').text( end + ( end > 1 ? ' days' : ' day' ) );
+  $('.filter-days .info .begin').text( begin + ( begin > 1 ? ' días' : ' día' ) );
+  $('.filter-days .info .end').text( end + ( end > 1 ? ' días' : ' día' ) );
 
 
 
