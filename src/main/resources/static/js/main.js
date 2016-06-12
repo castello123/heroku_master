@@ -2,7 +2,7 @@ $(function() {
 
   // main menu responsive
   $('.main-menu').mobileMenu({
-    defaultText: 'Navigate to...',
+    defaultText: 'Navegar...',
     className: 'select-main-menu'
   });
 
