@@ -40,40 +40,7 @@
         
         
           <header role="banner" class="cf">
-
-            <div class="top-wrap">
-              <div class="row">
-                <div class="large-3 columns">
-                  <div class="logo">
-                    <a href="index.html">Cupones</a>
-                  </div>
-                </div>
-                <nav class="large-6 columns">
-                  <ul class="rr main-menu">
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li>
-                      <a href="search-results.html">Extra</a>
-                      <ul>
-                        <li><a href="company.html">Marcas</a></li>
-                        <li><a href="404.html">404</a></li>
-                        <li><a href="no-results.html">Sin resultados</a></li>
-                        <li><a href="search-results.html">Resultados</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="coupon.html">Cupones</a></li>
-                    <li><a href="post.html">Post</a></li>
-                  </ul>
-                </nav>
-                <div class="large-3 columns">
-                  <div class="account cf">
-                    <a href="#" class="input button blue tertiary icon plus">Join us</a>
-                    <a href="#" class="input button transparent tertiary">Log in</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
+			<div th:include="menu :: menu"></div>
             <h1 class="text-center">Marca</h1>
 
             <div class="search-wrap stripe-white">
